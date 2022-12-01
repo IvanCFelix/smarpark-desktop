@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  margin: 0.5rem;
+  background-color: #282c34;
+  height: 8%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  color: white;
+}
+
+.item {
+  border: white solid;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  user-select: none;
+  cursor: pointer;
+}
+.item:hover {
+  font-size: 1.8rem;
+}
+
+.qr-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 100px 400px;
+  row-gap: 10px;
+}
